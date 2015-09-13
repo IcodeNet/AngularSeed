@@ -1,0 +1,28 @@
+﻿<section>
+    <h1>{{ 'LOGIN:LOGIN' | translate }}</h1>
+
+    <form role="form" name="loginForm" class="form-horizontal" novalidate ng-submit="login.login()">
+        <div class="col-md-12 validation-summary" ng-show="login.shouldErrorsBeShown()">
+            {{ login.loginStatus | translate }}
+        </div>
+        <div class="form-group">
+            <label for="userName" class="col-md-2 control-label">{{ 'LOGIN:USER_NAME' | translate }}</label>
+            <div class="col-md-5">
+                <input type="text" id="userName" name="userName" class="form-control" ng-model="login.userName " required autofocus />
+            </div>
+            <div class="col-md-5 field-validation-error" ng-show="loginForm.$submitted && loginForm.userName.$error.required">{{ 'LOGIN:USER_NAME_REQUIRED' | translate }}</div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-md-2 control-label">{{ 'LOGIN:PASSWORD' | translate }}</label>
+            <div class="col-md-5">
+                <input type="password" id="password" name="password" class="form-control" ng-model="login.password" required />
+            </div>
+            <div class="col-md-5 field-validation-error" ng-show="loginForm.$submitted && loginForm.password.$error.required">{{ 'LOGIN:PASSWORD_REQUIRED' | translate }}</div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-push-2 col-md-5">
+                <button type="submit" class="btn btn-primary form-control">{{ 'LOGIN:SIGN_IN' | translate }}</button>
+            </div>
+        </div>
+    </form>
+</section>

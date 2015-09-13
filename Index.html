@@ -1,0 +1,41 @@
+ <!doctype html >
+ <head>
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="jspm_packages/npm/toastr@2.1.0/toastr.css"" />
+    <link rel="stylesheet" href="jspm_packages/github/angular-ui-tree/angular-ui-tree@2.6.0/angular-ui-tree.min.css"/>
+
+    <link rel="stylesheet" href="css/main.css" />
+	
+		<script src="jspm_packages/system.js"></script>
+		<script src="config.js"></script>
+
+		<script>
+		 System.import('lib/main');
+		</script>
+  
+ </head>
+
+ 
+  <body data-main-app   ng-cloak> 		  
+		  
+		<div ng-controller="AppController as app">
+			<div class="container body-content">
+				<div ng-viewport="header"></div>  
+				<div class='col-md-4' ng-viewport="sidebar"></div>
+
+				<div class='col-md-8' ng-viewport="main"></div>
+			</div>
+		</div> 
+  
+		<script>
+		 
+		 var Zeus = Zeus || {};
+		  window.Zeus.ConfigurationData =  {               
+                appBase : '/'
+            };
+		 
+		</script>
+  </body>

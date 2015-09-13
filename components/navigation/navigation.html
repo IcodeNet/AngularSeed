@@ -1,0 +1,22 @@
+﻿<h1>Navigation in navigation ng-viewport</h1>
+
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-collapse collapse navbar-right">
+            <div class="navbar-nav navbar-right">
+                  <img ng-attr-src="{{navigation.imagesPath + '/flags/32/gb.png'}}" ng-click="navigation.changeLanguage('en')"  class="navbar-btn clickable" title="{{ 'NAVIGATION:BUTTON_LANG_EN' | translate }}" alt="{{ 'NAVIGATION:BUTTON_LANG_EN' | translate }}"/>
+                 <img ng-attr-src="{{navigation.imagesPath + '/flags/32/es.png'}}"  ng-click="navigation.changeLanguage('es')"  class="navbar-btn clickable" title="{{ 'NAVIGATION:BUTTON_LANG_ES' | translate }}" alt="{{ 'NAVIGATION:BUTTON_LANG_ES' | translate }}"/>
+       
+            </div>
+        </div>
+
+        <div class="navbar-header">
+            <div class="navbar-brand">
+               <label  lass="col-md-2 control-label">{{ 'NAVIGATION:APPLICATIONNAME' | translate }}</label>
+            </div>
+            <ul class="nav navbar-nav">
+             
+            </ul>
+        </div>
+    </div>
+</nav>
