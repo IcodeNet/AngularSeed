@@ -32,7 +32,7 @@ There are some steps required before you can start work on this project:
     
 go to command prompt and navigate to the root folder of this project and run:
 
-    npm install	
+    jspm install	
 
 now you can see the SPA running by running the follwoing:
     
