@@ -30,7 +30,7 @@ There are some steps required before you can start work on this project:
 
 ## The following will install all dependencies ##
     
-go to command prompt and navigate to the root folder of this project and run:
+go to an administrator command prompt and navigate to the root folder of this project and run:
 
     jspm install	
 
