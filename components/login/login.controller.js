@@ -11,6 +11,7 @@ class LoginController {
 
 
     login() {
+        window.alert('atempt to login');
         if (this.loginForm.$valid) {
            
         }

@@ -9,6 +9,6 @@ class SidebarController {
  
 }
 
-NavigationController.$inject = ['$translate'];
+SidebarController.$inject = ['$translate'];
 
 export default SidebarController;

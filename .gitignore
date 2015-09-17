@@ -198,6 +198,11 @@ FakesAssemblies/
 # JSPM
 jspm_packages
 
-
 # Node Modules
 node_modules
+ 
+.idea
+npm-debug.log 
+config.js
+
+

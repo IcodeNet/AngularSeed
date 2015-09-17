@@ -14,7 +14,7 @@ System.config({
 
 System.config({
   "map": {
-    "angular": "github:angular/bower-angular@1.4.3",
+    "angular": "github:angular/bower-angular@1.4.5",
     "angular-bootstrap": "github:angular-ui/bootstrap-bower@0.13.0",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.3",
     "angular-new-router": "github:angular/router@0.5.3",
@@ -32,17 +32,22 @@ System.config({
     "gulp-uglify": "npm:gulp-uglify@1.2.0",
     "jquery": "github:components/jquery@2.1.4",
     "lodash-node": "npm:lodash-node@3.10.0",
+    "lookfirst/oclazyload-systemjs-router": "github:lookfirst/oclazyload-systemjs-router@1.2.2",
     "myname": "npm:underscore@1.8.3",
+    "oclazyload-systemjs-router": "github:lookfirst/oclazyload-systemjs-router@1.2.2",
     "q": "npm:q@2.0.3",
     "toastr": "npm:toastr@2.1.0",
     "github:angular-translate/bower-angular-translate@2.7.2": {
-      "angular": "github:angular/bower-angular@1.4.3"
+      "angular": "github:angular/bower-angular@1.4.5"
+    },
+    "github:angular-ui/ui-router@0.2.15": {
+      "angular": "github:angular/bower-angular@1.4.5"
     },
     "github:angular-ui/ui-utils@0.2.3": {
-      "angular": "github:angular/bower-angular@1.4.3"
+      "angular": "github:angular/bower-angular@1.4.5"
     },
     "github:angular/bower-angular-mocks@1.4.3": {
-      "angular": "github:angular/bower-angular@1.4.3"
+      "angular": "github:angular/bower-angular@1.4.5"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -106,6 +111,12 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "github:lookfirst/oclazyload-systemjs-router@1.2.2": {
+      "angular": "github:angular/bower-angular@1.4.5",
+      "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+      "oclazyload": "github:ocombe/ocLazyLoad@1.0.5",
+      "ui-router-extras": "github:christopherthielen/ui-router-extras@0.0.13"
     },
     "npm:amdefine@1.0.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",

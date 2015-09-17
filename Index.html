@@ -1,26 +1,40 @@
  <!doctype html >
+ <html lang="en"  data-main-app >
  <head>
-
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="description" content="{{app.description}}">
+   <meta name="keywords" content="responsive, angular, bootstrap">
+   <title data-ng-bind="::pageTitle()">Angular Seed Application</title>
+   
+ 	<!-- Bootstrap, normalize,toastr styles-->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="jspm_packages/npm/toastr@2.1.0/toastr.css"" />
     <link rel="stylesheet" href="jspm_packages/github/angular-ui-tree/angular-ui-tree@2.6.0/angular-ui-tree.min.css"/>
 
-    <link rel="stylesheet" href="css/main.css" />
-	
+  	<!-- Application styles-->
+    <link rel="stylesheet" href="css/app.css" />
+	 
+	<!-- Themes-->
+    <!--<link rel="stylesheet" ng-href="{{app.layout.theme}}" data-ng-if="app.layout.theme">-->
+   
+   
 		<script src="jspm_packages/system.js"></script>
 		<script src="config.js"></script>
 
 		<script>
 		 System.import('lib/main');
 		</script>
-  
+		
+		
+  	<base href="/" />
  </head>
 
  
-  <body data-main-app   ng-cloak> 		  
-		  
+  <body> 		  
+		   <href></href>
 		<div ng-controller="AppController as app">
 			<div class="container body-content">
 				<div ng-viewport="header"></div>  

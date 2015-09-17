@@ -14,7 +14,7 @@ class NavigationController {
     }
 	
 	 get imagesPath() {
-        return window.Zeus.ConfigurationData.appBase + 'images';
+        return window.Zeus.ConfigurationData.appBase + 'img';
     }
  
 }
