@@ -1,3 +1,9 @@
 ﻿<h1>Main in main ng-viewport, Dashboard tpl</h1>
 
 1+ 1 = {{1 + 1}}
+
+ 
+<div oc-lazy-load="{ name: 'app.promotions', files: [ System.baseURL + '/components/promotions/promotions.module.es6.js'],  template:  System.baseURL + '/components/promotions/promotions.html'}">
+	<div ng-viewport="promotions"></div>
+</div>  
+ 
