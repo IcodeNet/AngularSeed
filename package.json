@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "gulp-es6-transpiler": "~1.0.1",
-    "jspm": "~0.15.7"
+    "jspm": "~0.16.55"
   }
 }
