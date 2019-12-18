@@ -1,4 +1,7 @@
 # How to initialise the project #
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/IcodeNet/AngularSeed.svg)](https://greenkeeper.io/)
+
 This is some documentation about managing the packages and what is needed to get you up and running with this project.
 
 ## Technology Stack
